@@ -25,7 +25,7 @@ public class AddTwoNumbersStories extends JUnitStories {
         URL storyURL = null;
         try {
             // This requires you to start Maven from the project directory
-            storyURL = new URL("file:///Users/elise/Repos/JBehave-Sample/org.qas.jbehave.example.sortteststeps");
+            storyURL = new URL("file://var/jenkins_home/workspace/JenkinsPluginDemo/org.qas.jbehave.example.sortteststeps");
             //+ System.getProperty("user.dir")
             //   + "/src/main/resources/stories/");
         } catch (MalformedURLException e) {
