@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.qasymphony.qtest.automation:jbehave-plugin-log-collector:1.2.0.4-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/qasymphony/qtest/automation/jbehave-plugin-log-collector/1.2.0.4-SNAPSHOT/jbehave-plugin-log-collector-1.2.0.4-20170213.082019-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/qasymphony/qtest/automation/jbehave-plugin-log-collector/1.2.0.4-SNAPSHOT/jbehave-plugin-log-collector-1.2.0.4-20170213.082019-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/qasymphony/qtest/automation/jbehave-plugin-log-collector/1.2.0.4-SNAPSHOT/jbehave-plugin-log-collector-1.2.0.4-20170213.082019-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
