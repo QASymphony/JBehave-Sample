@@ -18,6 +18,8 @@ import java.net.URL;
 import java.util.Arrays;
 import java.util.List;
 
+import com.qasymphony.qtest.automation.plugin.jbehave.core.LogCollector;
+
 public class AddTwoNumbersStories extends JUnitStories {
 
     @Override
@@ -34,6 +36,7 @@ public class AddTwoNumbersStories extends JUnitStories {
 
         return new MostUsefulConfiguration().useStoryLoader(new LoadFromRelativeFile(storyURL))
                 .useStoryReporterBuilder(new StoryReporterBuilder()
+                        .withFormats(new LogCollector())                 
                         .withFormats(Format.CONSOLE)
                         .withFormats(Format.HTML)
                         .withFormats(Format.XML));
